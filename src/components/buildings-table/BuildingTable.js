@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from "react";
 import { Footer } from "../footer/Footer";
-import { AddBuildingForm } from "../add-building-form/AddBuildingForm";
+import { AddBuildingForm } from "./add-building-form/AddBuildingForm";
 import data from "../mock-data.json";
 import { EditableRow } from "./EditableRow";
 import { ReadOnlyRow } from "./ReadOnlyRow";
@@ -81,7 +81,7 @@ export const BuildingTable = () => {
   return (
     <div className="app">
     <Header />
-      <div className="costum-container">
+      <div className="custom-container">
         <form onSubmit={handleEditFormSubmit}>
           <table className="table">
             <thead className="thead-dark">

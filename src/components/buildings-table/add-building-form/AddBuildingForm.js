@@ -51,7 +51,7 @@ export const AddBuildingForm = ({ buildings, setBuildings }) => {
   };
 
   return (
-    <Form className="costum-form" onSubmit={handleAddBuildingFormSubmit}>
+    <Form className="custom-form" onSubmit={handleAddBuildingFormSubmit}>
       <FormGroup>
         <Label>Name</Label>
         <Input
