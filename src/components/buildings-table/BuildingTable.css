@@ -1,0 +1,35 @@
+.costum-container {
+  max-width: 50rem;
+  margin: 4rem auto;
+}
+.thead-dark {
+  background-color: #7dc2ad;
+}
+.custom-button {
+  border-radius: 8px;
+}
+
+.button-color {
+  background-color: #385b64 !important;
+}
+.navbar-text {
+  margin-left: 8rem;
+  font-size: x-large;
+  font-family: fantasy;
+  color: #385b64 !important;
+}
+
+.custom-navbar{
+  background-color: #7dc2ad;
+}
+.app{
+  background-color: aliceblue;
+}
+.img{
+  width: 4rem;
+  margin-right: 8rem;
+  border-radius: 20px;
+}
+.table-img{
+  width: 4rem;
+}

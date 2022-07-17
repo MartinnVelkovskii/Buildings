@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Windsor",
+    "area": "200",
+    "location": "London",
+    "img": "assets/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Astoria",
+    "area": "300",
+    "location": "Paris",
+    "img": "assets/2.png"
+  },
+  {
+    "id": 3,
+    "name": "Blue Lagoon",
+    "area": "150",
+    "location": "Amsterdam",
+    "img": "assets/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Sofia Estate",
+    "area": "400",
+    "location": "Sofia",
+    "img": "assets/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Varna Palace",
+    "area": "350",
+    "location": "Varna",
+    "img": "assets/5.png"
+  }
+]
