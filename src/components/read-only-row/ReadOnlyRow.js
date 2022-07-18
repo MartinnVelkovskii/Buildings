@@ -1,5 +1,5 @@
 import React from "react";
-import "./BuildingTable.css";
+import "./ReadOnlyRow.css"
 
 export const ReadOnlyRow = ({
   building,
@@ -12,7 +12,9 @@ export const ReadOnlyRow = ({
       <td>{building.name}</td>
       <td>{building.area}</td>
       <td>{building.location}</td>
-      <td ><img className="table-img" src={building.img}/></td>
+      <td>
+        <img className="table-img" src={building.img} />
+      </td>
       <td className="btn-group-toggle text-center" data-toggle="buttons">
         <button
           className="btn btn-secondary button-color"

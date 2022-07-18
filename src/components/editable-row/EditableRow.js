@@ -1,4 +1,5 @@
 import React from "react";
+import "./EditableRow.css";
 
 export const EditableRow = ({
   building,
@@ -50,8 +51,15 @@ export const EditableRow = ({
         ></input>
       </td>
       <td className="btn-group btn-group-toggle">
-        <button className="btn btn-secondary button-color" type="submit"> Save </button>
-        <button className="btn btn-secondary button-color" type="button" onClick={handleCancelClick}>
+        <button className="btn btn-secondary button-color" type="submit">
+          {" "}
+          Save{" "}
+        </button>
+        <button
+          className="btn btn-secondary button-color"
+          type="button"
+          onClick={handleCancelClick}
+        >
           {" "}
           Cancel{" "}
         </button>

@@ -1,11 +1,11 @@
 import React, { useState, Fragment } from "react";
 import { Footer } from "../footer/Footer";
-import { AddBuildingForm } from "./add-building-form/AddBuildingForm";
+import { AddBuildingForm } from "../add-building-form/AddBuildingForm";
 import data from "../mock-data.json";
-import { EditableRow } from "./EditableRow";
-import { ReadOnlyRow } from "./ReadOnlyRow";
+import { EditableRow } from "../editable-row/EditableRow";
+import { ReadOnlyRow } from "../read-only-row/ReadOnlyRow";
 import "./BuildingTable.css";
-import { Header } from "./Header";
+import { Header } from "../header/Header";
 
 export const BuildingTable = () => {
   const [buildings, setBuildings] = useState(data);
@@ -80,7 +80,7 @@ export const BuildingTable = () => {
 
   return (
     <div className="app">
-    <Header />
+      <Header />
       <div className="custom-container">
         <form onSubmit={handleEditFormSubmit}>
           <table className="table">

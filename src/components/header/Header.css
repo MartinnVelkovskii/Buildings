@@ -1,0 +1,15 @@
+.img {
+  width: 4rem;
+  margin-right: 8rem;
+  border-radius: 20px;
+}
+.navbar-text {
+  margin-left: 8rem;
+  font-size: x-large;
+  font-family: fantasy;
+  color: #385b64 !important;
+}
+
+.custom-navbar {
+  background-color: #7dc2ad;
+}
